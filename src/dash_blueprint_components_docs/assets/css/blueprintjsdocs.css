@@ -1,0 +1,200 @@
+html {
+    width: 100%;
+}
+
+.bp5-html {
+    background-color: #F6F7F9;
+    width: 100%;
+}
+
+.bp5-dark .bp5-html {
+    background-color: #252a31;
+    width: 100%;
+}
+
+.p {
+    margin-bottom: 10px
+}
+
+.bp5-docs-root {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    max-width: 1100px;
+    min-height: 100vh;
+    background-color: #F6F7F9;
+}
+
+.bp5-dark .bp5-docs-root {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    max-width: 1100px;
+    min-height: 100vh;
+    background-color: #252a31;
+}
+
+.bp5-sidebar {
+    background-color: #fff;
+    height: 100vh;
+    overflow-y: auto;
+    margin-left: -999px;
+    padding-bottom: 30px;
+    padding-left: 1004px;
+    width: 1269px;
+    position: fixed;
+}
+
+.bp5-dark .bp5-sidebar {
+    background-color: #383e47; 
+    height: 100vh;
+    overflow-y: auto;
+    margin-left: -999px;
+    padding-bottom: 30px;
+    padding-left: 1004px;
+    width: 1269px;
+    position: fixed;
+}
+
+.bp5-docs-page {
+    padding: 0 5px 40px 40px;
+    margin-left: calc(1269px - 1004px);
+}
+
+.bp5-dark .bp5-docs-page {
+    padding: 0 5px 40px 40px;
+    margin-left: calc(1269px - 1004px);
+}
+
+.docs-page-example-container {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bp5-docs-page-example-container {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bp5-docs-page-example {
+    background-color: #fff;
+    padding: 30px;
+    margin-right: 30px;
+    width: -webkit-fill-available;
+    max-width: calc(785px - 200px);
+}
+
+.bp5-dark .bp5-docs-page-example {
+    background-color: #1c2127;;
+    padding: 30px;
+    margin-right: 30px;
+    width: -webkit-fill-available;
+    max-width: calc(785px - 200px);
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.bp5-docs-page-example-props {
+    background-color: #EDEFF2;
+    min-width: 275px;
+    padding: 20px;
+    font-size: small;
+}
+
+.bp5-dark .bp5-docs-page-example-props {
+    background-color: #2f343c;
+    min-width: 275px;
+    padding: 20px;
+    font-size: small;
+}
+
+.bp5-docs-page-example-no-props {
+    background-color: #fff;
+    padding: 30px;
+    margin-right: 30px;
+    width: -webkit-fill-available;
+    max-width: calc(1060px - 200px);
+}
+
+.bp5-dark .bp5-docs-page-example-no-props {
+    background-color: #2f343c;;
+    padding: 30px;
+    margin-right: 30px;
+    width: -webkit-fill-available;
+    max-width: calc(1060px - 200px);
+}
+
+.docs-page-example-props > * {
+    margin-bottom: 10px
+}
+
+.docs-props-details {
+    background: none!important;
+    box-shadow: none!important;
+    color: inherit!important;
+    font-size: small;
+    font-weight: 600;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.radio-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center
+}
+
+.docs-nav-package[data-route="/blueprint"].docs-nav-expanded .bp5-menu-item, 
+.docs-nav-package[data-route="/blueprint"].docs-nav-expanded+.docs-nav-menu .bp5-menu-item.bp5-active, 
+.docs-nav-package[data-route="/blueprint"]:hover .bp5-menu-item, 
+.docs-nav-package[data-route="/blueprint"]:hover+.docs-nav-menu .bp5-menu-item.bp5-active {
+    color: #fbd065;
+}
+
+.docs-nav-package[data-route="/datetime"].docs-nav-expanded .bp5-menu-item, 
+.docs-nav-package[data-route="/datetime"].docs-nav-expanded+.docs-nav-menu .bp5-menu-item.bp5-active, 
+.docs-nav-package[data-route="/datetime"]:hover .bp5-menu-item, 
+.docs-nav-package[data-route="/datetime"]:hover+.docs-nav-menu .bp5-menu-item.bp5-active {
+    color: #ac2f33;
+}
+
+.docs-nav-package[data-route="/select"].docs-nav-expanded .bp5-menu-item, 
+.docs-nav-package[data-route="/select"].docs-nav-expanded+.docs-nav-menu .bp5-menu-item.bp5-active, 
+.docs-nav-package[data-route="/select"]:hover .bp5-menu-item, 
+.docs-nav-package[data-route="/select"]:hover+.docs-nav-menu .bp5-menu-item.bp5-active {
+    color: #0f6894;
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+  text-shadow: none;
+}
+
+.docs-banner a {
+    color: #fff !important;
+}
+
+.docs-banner a:hover {
+    text-decoration: none;
+}
+
+.bp5-source-button {
+    background-color: #edeff2 !important;
+    height: 40px;
+}
+
+.bp5-dark .bp5-source-button {
+    background-color: #2f343c !important;
+    height: 40px;
+}
+
+.bp5-source-button:hover {
+    background: rgba(45, 114, 210, .15) !important;
+}

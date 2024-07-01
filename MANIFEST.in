@@ -1,0 +1,2 @@
+include src/netmontool/dashboard/assets/js/*js
+include src/netmontool/dashboard/assets/css/*css
