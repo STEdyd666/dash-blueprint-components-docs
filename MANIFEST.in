@@ -1,2 +1,3 @@
-include src/netmontool/dashboard/assets/js/*js
-include src/netmontool/dashboard/assets/css/*css
+recursive-include src/dash_blueprint_components_docs/pages *
+recursive-include src/dash_blueprint_components_docs/assets *
+recursive-include src/dash_blueprint_components_docs/src *

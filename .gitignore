@@ -1,3 +1,6 @@
 src/dash_blueprint_components/createsrc.py
 src/dash_blueprint_components_docs.egg-info
 src/dash_blueprint_components_docs/__pycache__
+*.pyc
+dist
+build
