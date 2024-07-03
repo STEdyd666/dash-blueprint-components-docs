@@ -1,6 +1,7 @@
 import dash_blueprint_components as dbpc
 from dash import html, callback, Input, Output, ctx
 from dash.exceptions import PreventUpdate
+from dash.exceptions import PreventUpdate
 from flask import current_app
 import json
 import os
@@ -236,6 +237,8 @@ def change(value):
     Input('navbar', 'route')
 )
 def sethref(route):
+    if route is None:
+        raise PreventUpdate
     repo = current_app.config['GITHUB']
     basename = os.path.basename(route)
     href = f'{repo}{route}/{basename}.py'
