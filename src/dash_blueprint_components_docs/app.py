@@ -1,6 +1,7 @@
 
 import importlib
 from importlib_resources import files
+import os
 import dash
 from dash import Dash, html, page_container, dcc, clientside_callback, Output, Input, State
 import dash_blueprint_components as dbpc
@@ -17,11 +18,12 @@ app = Dash(
     external_stylesheets=[
         'https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css'
     ],
-    title='DBPC'
+    title='DBPC',
 )
 
 # set app config
-app.server.config['GITHUB'] = 'https://github.com'
+githubroot = os.environ.get('GITHUBROOT')
+app.server.config['GITHUB'] = githubroot
 
 # load source file
 jsondata = files('dash_blueprint_components_docs.src').joinpath('src.json').read_text()
@@ -77,7 +79,7 @@ for d in src:
 
 navbar = dbpc.SideBar(
 	id='navbar',
-    items=src,
+    items=src
 )
 
 sidebartitle = html.Div(

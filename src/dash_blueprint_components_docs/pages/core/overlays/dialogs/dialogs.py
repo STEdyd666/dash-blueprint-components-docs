@@ -3,6 +3,7 @@ from dash import html, callback, Input, Output, ctx
 from dash.exceptions import PreventUpdate
 from flask import current_app
 import json
+import os
 import inspect
 
 from utils import parse_docstring, get_tablebody_from_props
@@ -402,5 +403,6 @@ def change(value):
 )
 def sethref(route):
     repo = current_app.config['GITHUB']
-    href = f'{repo}{route}'
+    basename = os.path.basename(route)
+    href = f'{repo}{route}/{basename}.py'
     return href

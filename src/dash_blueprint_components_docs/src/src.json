@@ -670,7 +670,7 @@
     ]
   },
   {
-    "route": "/select",
+    "route": "/select-menu",
     "path": "pages.select-menu.select-menu",
     "level": 1,
     "title": "Select",
@@ -682,7 +682,7 @@
     "name": "",
     "content": [
       {
-        "route": "/select/multi-select",
+        "route": "/select-menu/multi-select",
         "path": "pages.select-menu.multi-select.multi-select",
         "level": 2,
         "title": "Multi Select",
@@ -694,7 +694,7 @@
         "content": []
       },
       {
-        "route": "/select/omnibar",
+        "route": "/select-menu/omnibar",
         "path": "pages.select-menu.omnibar.omnibar",
         "level": 2,
         "title": "Omnibar",
@@ -706,7 +706,7 @@
         "content": []
       },
       {
-        "route": "/select/select",
+        "route": "/select-menu/select",
         "path": "pages.select-menu.select.select",
         "level": 2,
         "title": "Select",
@@ -718,7 +718,7 @@
         "content": []
       },
       {
-        "route": "/select/suggest",
+        "route": "/select-menu/suggest",
         "path": "pages.select-menu.suggest.suggest",
         "level": 2,
         "title": "Suggest",
