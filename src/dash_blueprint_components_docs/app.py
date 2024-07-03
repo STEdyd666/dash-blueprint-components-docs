@@ -169,14 +169,22 @@ clientside_callback(
 
 clientside_callback(
     """
-    function(value) {
+    function(value, pathname) {
+        console.log(pathname)
         if (value) {
             return value
+        }
+
+        if (pathname === "/") {
+            return "/blueprint"
+        } else {
+            return pathname
         }
     }
     """,
     Output("url", "pathname"),
     Input("navbar", "route"),
+    State("url", "pathname")
 )
 
 clientside_callback(
