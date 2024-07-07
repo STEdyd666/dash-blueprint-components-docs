@@ -54,7 +54,7 @@ component = html.Div(
                     style={'text-decoration': 'none'}
                 ),
                 html.A(
-                    href='https://blueprintjs.com/docs',
+                    href="https://github.com/STEdyd666/dash-blueprint-components",
                     children=dbpc.Card(
                         children=[
                             html.Div(
