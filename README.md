@@ -15,5 +15,5 @@ pip install -e /path/to/dash_blueprint_components_docs
 And run the server:
 
 ```
-python /src/dash_blueprint_components/app.py
+python src/dash_blueprint_components/app.py
 ```
