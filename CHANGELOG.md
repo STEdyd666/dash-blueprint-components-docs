@@ -6,6 +6,6 @@ All notable changes to this project will be documented in this file.
 
 Initial release.
 
-## [0.1.0] - 2024-08-27
+## [0.1.1] - 2024-08-27
 
 Update `dash-blueprint-components` to version `0.1.1`
