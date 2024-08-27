@@ -189,7 +189,7 @@ component = html.Div(
                                 {'label': 'Regular', 'value': 'regular'},
                                 {'label': 'Large', 'value': 'large'}
                             ],
-                            defaultValue='regular'
+                            value='regular'
                         )
                     ],
                     className='bp5-docs-page-example-props',
@@ -313,7 +313,7 @@ component = html.Div(
                                 {'label': 'true', 'value': True},
                                 {'label': 'false', 'value': False},
                             ],
-                            defaultValue='undefined'
+                            value='undefined'
                         ),
                         html.P(children='Intent'),
                         dbpc.HTMLSelect(
@@ -334,7 +334,7 @@ component = html.Div(
                                 {'label': 'menuitem', 'value': 'menuitem'},
                                 {'label': 'listoption', 'value': 'listoption'},
                             ],
-                            defaultValue='menuitem'
+                            value='menuitem'
                         )
                     ],
                     className='bp5-docs-page-example-props',

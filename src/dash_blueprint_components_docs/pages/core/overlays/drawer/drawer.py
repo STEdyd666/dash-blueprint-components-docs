@@ -85,7 +85,7 @@ component = html.Div(
                                     {'label': 'bottom', 'value': 'bottom'},
                                     {'label': 'left', 'value': 'left'},
                                 ],
-                                defaultValue='right'
+                                value='right'
                             ),
                             style={'max-width': 'fit-content'}
                         ),

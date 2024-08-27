@@ -182,7 +182,7 @@ component = html.Div(
 
 
 @callback(
-    Output('popover', 'position'),
+    Output('popover', 'placement'),
     Input('popover-position', 'value')
 )
 def change(value):

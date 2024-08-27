@@ -77,7 +77,6 @@ component = html.Div(
                                     {'label': 'Left', 'value': 'left'},
                                     {'label': 'Right', 'value': 'right'}
                                 ],
-                                defaultValue='right',
                                 value='right'
                             ),
                             style={'max-width': 'fit-content'}
@@ -148,7 +147,6 @@ component = html.Div(
                                     {'label': 'Left', 'value': 'left'},
                                     {'label': 'Right', 'value': 'right'}
                                 ],
-                                defaultValue='right',
                                 value='right'
                             ),
                             style={'max-width': 'fit-content'}
@@ -209,7 +207,6 @@ component = html.Div(
                                     {'label': 'Left', 'value': 'left'},
                                     {'label': 'Right', 'value': 'right'}
                                 ],
-                                defaultValue='right',
                                 value='right'
                             ),
                             style={'max-width': 'fit-content'}

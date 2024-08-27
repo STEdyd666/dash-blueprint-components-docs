@@ -63,7 +63,7 @@ component = html.Div(
                                     {'label': 'Regular', 'value': 'regular'},
                                     {'label': 'Large', 'value': 'large'}
                                 ],
-                                defaultValue='regular',
+                                value='regular',
                             ),
                             style={'max-width': 'fit-content'}
                         ),

@@ -39,7 +39,7 @@ component = html.Div(
                         dbpc.SegmentedControl(
                             id='segmented-control',
                             options=options,
-                            defaultValue='list',
+                            value='list',
                         )
                     ],
                     className='bp5-docs-page-example centered',
@@ -71,7 +71,7 @@ component = html.Div(
                                 {'label': 'Regular', 'value': 'regular'},
                                 {'label': 'Large', 'value': 'large'}
                             ],
-                            defaultValue='regular'
+                            value='regular'
                         )
                     ],
                     className='bp5-docs-page-example-props',
