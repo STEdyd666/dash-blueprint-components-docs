@@ -9,3 +9,9 @@ Initial release.
 ## [0.1.1] - 2024-08-27
 
 Update `dash-blueprint-components` to version `0.1.1`
+
+## [0.2.0] - 2025-03-25
+
+### Removed
+
+- `Timepicker` and `Timezone` select.
