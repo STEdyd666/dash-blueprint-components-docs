@@ -642,30 +642,6 @@
         "section": "",
         "name": "",
         "content": []
-      },
-      {
-        "route": "/datetime/time-picker",
-        "path": "pages.datetime.time-picker.time-picker",
-        "level": 2,
-        "title": "Time Picker",
-        "isSection": false,
-        "module": "time picker",
-        "description": "",
-        "section": "",
-        "name": "",
-        "content": []
-      },
-      {
-        "route": "/datetime/timezone-select",
-        "path": "pages.datetime.timezone-select.timezone-select",
-        "level": 2,
-        "title": "Timezone Select",
-        "isSection": false,
-        "module": "timezone select",
-        "description": "",
-        "section": "",
-        "name": "",
-        "content": []
       }
     ]
   },

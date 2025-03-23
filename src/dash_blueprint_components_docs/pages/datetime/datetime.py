@@ -15,8 +15,6 @@ component = html.Div(
 
         - [DateRangeInput](/datetime/date-range-input) , which composes two text inputs with a DateRangePicker in a Popover, for use in forms.
         
-        - [TimePicker](/datetime/time-picker) for selecting a time (hour, minute, second, millisecond).
-
         """             
         )
     ]

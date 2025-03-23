@@ -200,7 +200,6 @@ def change(_1, _2, _3):
             ]
     else:
         raise PreventUpdate()
-
     return toasts
 
 @callback(
